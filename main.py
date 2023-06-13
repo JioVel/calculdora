@@ -2,7 +2,7 @@ import os
 import variables as va
 from funciones import inicio_calculadora, operacion_calculadora, reiniciar_calculadora, mostrar_acumulado
 
-os.chdir(os.path.dirname(os.path.abspath(file)))
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 numero = None
 reiniciar = False
